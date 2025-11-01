@@ -1,0 +1,22 @@
+Title: To do list 
+Created: 29.10.2025
+Status: Done
+Tag: Study
+Stack: Typescript, Express, Prisma, Docker, PostgreSQL
+
+# Tasks
+
+x Next
+> Current
+- Done
+
+- Express Folder structure 
+- Docker compose + postgreSQL
+- Prisma connection
+- Todo Model
+- Error Middleware + Error Handler
+- Create Todo
+- Read All todo
+- Read one Todo
+- Update Todo
+- Delete Todo

@@ -1,0 +1,18 @@
+name: 01-To-Do-List
+
+services:
+  db:
+    container_name: To-Do-List
+    image: postgres:alpine
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: admin
+      POSTGRES_USER: admin
+      POSTGRES_DB: to-do-list
+    volumes:
+      - pg_data:/var/lib/postgresql
+
+volumes:
+  pg_data:
