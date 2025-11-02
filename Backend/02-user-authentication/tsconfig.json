@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
     "rootDir": "./src",
-    "module": "nodenext",
-    "target": "esnext",
-    "lib": ["esnext"],
+    "module": "es2022",
+    "moduleResolution": "bundler",
+    "target": "es2023",
+    "lib": ["ES2023"],
     "types": ["node"],
     "sourceMap": true,
     "declaration": true,
@@ -22,5 +23,7 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true
-  }
+  },
+
+  "include": ["./src"]
 }

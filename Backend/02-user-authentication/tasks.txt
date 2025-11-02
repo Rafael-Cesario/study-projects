@@ -9,8 +9,8 @@ stack: Typescript, Express, Prisma, Docker, Postgresql, JWT
 - Express + Typescript
 - Docker compose + postgresql
 - Postman collection
-x Prisma connection
-x User model
+- User model
+- Prisma connection
 x User CRUD + Bcrypt
 x Login + JWT
 x Authorization middleware
