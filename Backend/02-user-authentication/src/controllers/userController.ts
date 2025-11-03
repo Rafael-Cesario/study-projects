@@ -16,7 +16,11 @@ class UserController {
   }
 
   async getOne(req: Request, res: Response) {
-    console.log("Controller");
+    const { id } = req.params as { id: string };
+
+    const user = await userService.getOne(id);
+
+    res.status(200).json({ user });
   }
 }
 
