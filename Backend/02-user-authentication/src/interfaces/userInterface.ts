@@ -3,3 +3,9 @@ export interface IUserCreate {
   name: string;
   password: string;
 }
+
+export interface IUserUpdate {
+  id: string;
+  email: string;
+  name: string;
+}

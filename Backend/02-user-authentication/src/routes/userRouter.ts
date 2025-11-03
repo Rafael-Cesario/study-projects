@@ -9,5 +9,6 @@ route.post("/", userController.create);
 route.use(authMiddleware);
 
 route.get("/:id", userController.getOne);
+route.put("/", userController.update);
 
 export { route as userRouter };
