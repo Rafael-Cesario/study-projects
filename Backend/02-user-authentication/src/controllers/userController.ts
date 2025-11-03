@@ -14,6 +14,10 @@ class UserController {
     const user = await userService.create(userData);
     res.status(201).json(user);
   }
+
+  async getOne(req: Request, res: Response) {
+    console.log("Controller");
+  }
 }
 
 export const userController = new UserController();

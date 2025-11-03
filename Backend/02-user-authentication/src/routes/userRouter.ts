@@ -1,8 +1,13 @@
 import { userController } from "../controllers/userController.js";
-import { Router } from "express";
+import { Router, type NextFunction, type Request, type Response } from "express";
+import { authMiddleware } from "../middlewares/authMiddleware.js";
 
-const router = Router();
+const route = Router();
 
-router.post("/", userController.create);
+route.post("/", userController.create);
 
-export { router as userRouter };
+route.use(authMiddleware);
+
+route.get("/:id", userController.getOne);
+
+export { route as userRouter };
