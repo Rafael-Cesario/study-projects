@@ -18,6 +18,7 @@ export const errorMiddleware = (
 
   if (error instanceof Prisma.PrismaClientKnownRequestError) {
     if (error.code === "P2002") res.status(400).json({ error: "Email must be unique" });
+    if (error.code === "P2025") res.status(404).json({ error: "No record was found for a delete." });
     return;
   }
 

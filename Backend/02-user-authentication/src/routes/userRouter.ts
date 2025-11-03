@@ -10,5 +10,6 @@ route.use(authMiddleware);
 
 route.get("/:id", userController.getOne);
 route.put("/", userController.update);
+route.delete("/:id", userController.remove);
 
 export { route as userRouter };

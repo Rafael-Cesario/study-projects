@@ -15,5 +15,5 @@ stack: Typescript, Express, Prisma, Docker, Postgresql, JWT
 - CustomErrors middleware
 - User Validations
 - Login + JWT
-x User CRUD
-x Authorization middleware
+- Authorization middleware
+> User CRUD
