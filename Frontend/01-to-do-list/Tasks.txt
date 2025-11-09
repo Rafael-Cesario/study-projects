@@ -1,0 +1,3 @@
+Title: To do List
+Date: 08/11/2025
+stack: Typescript, Next, Tailwind
