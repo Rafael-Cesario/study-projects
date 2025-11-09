@@ -1,0 +1,4 @@
+export default function Home() {
+  return <h1 className="text-2xl m-4">User authentication</h1>;
+}
+
