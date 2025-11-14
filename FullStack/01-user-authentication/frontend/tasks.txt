@@ -1,0 +1,8 @@
+Title: User authentication
+Date: 14.11.2025
+Stack: Typescript, Nextjs, Tailwind
+
+- [ Interface ] Create User 
+x [ Feature ] Create user validate fields
+x [ Feature ] Create user Display errors
+x [ Feature ] Create User POST request
